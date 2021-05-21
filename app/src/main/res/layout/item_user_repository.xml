@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bd_user_repository"
+    android:foreground="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/default_content_padding"
+    >
+
+    <ImageView
+        android:id="@+id/imageUserAvatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:src="@drawable/ic_github_repo"
+        />
+
+    <TextView
+        android:id="@+id/textRepositoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_content_horizontal_margin"
+        android:layout_marginRight="@dimen/default_content_horizontal_margin"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="@dimen/medium_text_size"
+        tools:text="RepositoryName"
+        />
+
+    <TextView
+        android:id="@+id/textRepositoryLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/default_content_horizontal_margin"
+        android:fontFamily="sans-serif"
+        android:layout_marginRight="@dimen/default_content_horizontal_margin"
+        android:textColor="@color/teal_700"
+        android:textSize="@dimen/small_text_size"
+        tools:text="Kotlin"
+        />
+
+    <TextView
+        android:id="@+id/textRepositoryStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:drawableRight="@drawable/ic_baseline_star_24"
+        tools:text="5"
+        />
+
+</LinearLayout>

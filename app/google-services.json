@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982377303551",
+    "project_id": "githubapitest-4af1a",
+    "storage_bucket": "githubapitest-4af1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982377303551:android:ce525779501accc52a2bca",
+        "android_client_info": {
+          "package_name": "tech.gen.githubtesttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982377303551-jahd6gog3b8ggnpjfpsrdsppspgu1obj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdVt5RtNasfyJ8_jYxPhqdtF98pKteog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982377303551-jahd6gog3b8ggnpjfpsrdsppspgu1obj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHubTestTask</string>
+    <string name="title_search">Search</string>
+    <string name="title_history">History</string>
+    <string name="text_no_history">There are noy history yet</string>
+    <string name="text_search_hint">Please enter your query and press search button</string>
+    <string name="action_login_with_github">Login with GitHub</string>
+</resources>
